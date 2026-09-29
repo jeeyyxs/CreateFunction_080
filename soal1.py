@@ -18,3 +18,5 @@ print(convert_temperature(100, 'X'))
 #        return (value * 9/5) + 32
 #    elif unit == 'F':
 #        return (value - 32) * 5/9
+#    else:
+#        return "Unit tidak valid! unit harus 'C' atau 'F'"
