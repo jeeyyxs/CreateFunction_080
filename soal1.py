@@ -20,3 +20,13 @@ print(convert_temperature(100, 'X'))
 #        return (value - 32) * 5/9
 #    else:
 #        return "Unit tidak valid! unit harus 'C' atau 'F'"
+#print("======== KONVERSI SUHU ========")
+#input_suhu = float(input("Masukkan nilai suhu: "))
+#unit = input("Masukkan satuan suhu (C/F): ").upper()
+#konversi = convert_temperature(input_suhu, unit)
+#if unit.upper() == 'C':
+#   print(f"{input_suhu}°C = {konversi:.2f}°F")
+#elif unit.upper() == 'F':
+#   print(f"{input_suhu}°F = {konversi:.2f}°C")
+#else:
+#print("Satuan tidak dikenal."  )
