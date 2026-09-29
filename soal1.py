@@ -7,8 +7,12 @@ def convert_temperature(value, unit):
         #Convert Fahrenheit to Celsius
         return (value - 32) * 5/9
     else:
-        return "unit harus 'C' atau 'F'"
+        return "Unit tidak valid! unit harus 'C' atau 'F'"
 
 print(convert_temperature(25, 'C'))  
 print(convert_temperature(77, 'F'))  
 print(convert_temperature(100, 'X'))  
+
+#def convert_temperature(value, unit):
+#    if unit == 'C':
+#        return (value * 9/5) + 32
